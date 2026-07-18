@@ -1,0 +1,8 @@
+numpy>=1.24
+sounddevice>=0.4.6
+pyperclip>=1.8
+pyttsx3>=2.90
+Pillow>=10.0
+
+# Windows-only, required for Screenshot-to-clipboard action:
+pywin32>=306; sys_platform == "win32"
